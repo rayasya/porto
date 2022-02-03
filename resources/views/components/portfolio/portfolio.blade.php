@@ -11,7 +11,7 @@
                 <div class="col-md-3 col-sm-6 mix responsive">
                     <div class="work-item">
                         <div class="image-holder">
-                            <img src="img/{{ $d->thumbnail }}" alt="">
+                            <img src="img/{{ $d->thumbnail }}" width="300" height="300" style="object-fit: none" class="img-fluid" alt="">
                             <div class="overlay">
                                 <a href="img/{{ $d->thumbnail }}" data-rel="lightbox">
                                     <i class="fa fa-search"></i>
