@@ -1,27 +1,27 @@
     {{-- head --}}
-        @include('components.portfolio.head')
+    @include('components.portfolio.head')
     {{-- head end --}}
 
     {{-- header --}}
-        @include('components.portfolio.header')
+    @include('components.portfolio.header')
     {{-- header end --}}
 
-    {{-- products --}}
-        @include('components.portfolio.products')
-    {{-- products end --}}
+    {{-- Skills --}}
+    @include('components.portfolio.skills')
+    {{-- skills end --}}
 
     {{-- portfolio --}}
-        @include('components.portfolio.portfolio')
+    @include('components.portfolio.portofolio')
     {{-- portfolio end --}}
 
-    {{-- bottom section --}}
-        @include('components.portfolio.bottom')
-    {{-- bottom section end --}}
-
     {{-- footer --}}
-        @include('components.portfolio.footer')
+    @include('components.portfolio.footer')
     {{-- footer end --}}
 
+    {{-- preload --}}
+    @include('components.portfolio.preload')
+    {{-- preload end --}}
+
     {{-- script --}}
-        @include('components.portfolio.script')
+    @include('components.portfolio.script')
     {{-- script end --}}

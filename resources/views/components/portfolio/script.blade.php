@@ -1,37 +1,16 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="{{asset('
-            templateFrontend ')}}/js/vendor/jquery-1.10.1.min.js"><\/script>')
+  <!-- Vendor JS Files -->
+  <script src="{{asset('templateFrontend')}}/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/aos/aos.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/typed.js/typed.min.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="{{asset('templateFrontend')}}/assets/vendor/php-email-form/validate.js"></script>
 
-    </script>
-
-    <script src="{{asset('templateFrontend')}}/js/bootstrap.min.js"></script>
-    <script src="{{asset('templateFrontend')}}/js/plugins.js"></script>
-    <script src="{{asset('templateFrontend')}}/js/main.js"></script>
-
-
-    <!-- Google Map -->
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="{{asset('templateFrontend')}}/js/jquery.gmap3.min.js"></script>
-
-    <!-- Google Map Init-->
-    <script type="text/javascript">
-        jQuery(function ($) {
-            $('#map_canvas').gmap3({
-                marker: {
-                    address: '16.8496189,96.1288854'
-                },
-                map: {
-                    options: {
-                        zoom: 15,
-                        scrollwheel: false,
-                        streetViewControl: true
-                    }
-                }
-            });
-        });
-
-    </script>
+  <!-- Template Main JS File -->
+  <script src="{{asset('templateFrontend')}}/assets/js/main.js"></script>
 
 </body>
 

@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>RAY'S PORTFOLIO</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="icon" href="{{ asset('templateFrontend') }}/images/logofixx.png">
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="{{asset('templateFrontend')}}/css/bootstrap.min.css">
+  <title>Ray's Portfolio</title>
 
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="{{asset('templateFrontend')}}/css/font-awesome.min.css">
+  <!-- Favicons -->
+  <link href="{{asset('templateFrontend')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Normailize Stylesheet -->
-    <link rel="stylesheet" href="{{asset('templateFrontend')}}/css/normalize.min.css">
+  <!-- Vendor CSS Files -->
+  <link href="{{asset('templateFrontend')}}/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{asset('templateFrontend')}}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{asset('templateFrontend')}}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="{{asset('templateFrontend')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="{{asset('templateFrontend')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="{{asset('templateFrontend')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Main Styles -->
-    <link rel="stylesheet" href="{{asset('templateFrontend')}}/css/templatemo_style.css">
-
-    <script src="{{asset('templateFrontend')}}/js/vendor/modernizr-2.6.2.min.js"></script>
+  <!-- Template Main CSS File -->
+  <link href="{{asset('templateFrontend')}}/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
