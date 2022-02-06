@@ -133,6 +133,7 @@ class portofolioController extends Controller
         if ($gambar == "default.jpg") {
             DB::table('portofolio')->where('id','=', $id)->delete();
         }else{
+            DB::table('portofolio')->where('id','=', $id)->delete();
             unlink($lokasi);
         }
 
