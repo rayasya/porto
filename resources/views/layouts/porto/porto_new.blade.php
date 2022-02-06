@@ -23,7 +23,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label>Description</label>
-                        <input name="description" class="form-control text-dark" placeholder="Enter Description..." required pattern="[a-zA-Z\s]+">
+                        <input name="description" class="form-control text-dark" placeholder="Enter Description..." required pattern="[a-zA-Z0-9\s]+">
                     </div>
                     <div class="form-group col-md-6">
                         <label>Type</label>
